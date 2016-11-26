@@ -1,0 +1,14 @@
+.message-block{
+    position: fixed;
+}
+#messages{
+    border: 1px solid green;
+    width: 296px;
+    height: 541px;
+    overflow-y: auto;
+}
+
+.msg{
+    border-radius: 0;
+}
+

@@ -1,0 +1,264 @@
+.roll-full-cont{
+    background-color: #F7FBF7;
+}
+
+.csgo-top-cont .rolling-cont img{
+    width: 150px;
+    height: 150px;
+}
+
+.csgo-top-cont .rolling-cont .roll{
+    height: 150px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.csgo-top-cont .rolling-cont .roll *{
+    /*display: inline-block;*/
+    /*width: 100%;*/
+}
+
+.csgo-top-cont .rolling-cont .volume{
+    font-size: 30px;
+    padding-top: 60px;
+    margin: auto;
+    display: inline-block;
+}
+
+.csgo-top-cont .rolling-cont .volume i{
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.csgo-top-cont .rolling-cont .volume .fa-volume-up{
+    color: #000000;
+}
+
+.csgo-top-cont .rolling-cont .volume .fa-volume-off{
+    color: #eeeeee;
+}
+
+.csgo-top-cont .previous > *{
+    display: inline-block;
+}
+
+.csgo-top-cont .previous{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.csgo-top-cont .previous .item{
+    /*background-color: #000000;*/
+    padding: 5px;
+    width: 30px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #DADADA;
+}
+
+.green{
+    background-color: #1AB584;
+}
+
+.green-text{
+    color: #1AB584;
+}
+
+.black{
+    background-color: black;
+}
+
+.black-text{
+    color: black;
+}
+
+.red{
+    background-color: #F65D4D;
+}
+
+.red-text{
+    color: #F65D4D;
+}
+.roll-box{
+    /*max-height: 4.375rem;*/
+    /*border-radius: .5rem;*/
+    height: 69px;;
+    background: url(../img/roulette.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-repeat-x: repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.roll-box + span:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: .1875rem;
+    height: 100%;
+    background-color: #fff;
+}
+
+.roll-box + span{
+    position: absolute;
+    top: -.1875rem;
+    margin-left: -2.375rem;
+    left: 50%;
+    display: block;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 4.875rem;
+    height: 100%;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.7);
+    box-shadow: 0 1px 4px rgba(0,0,0,.7);
+}
+
+
+.wolete-cont{
+    border: 1px solid #eee;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+}
+
+.wolete-cont-left > div div{
+      display: inline-block;
+  }
+.wolete-cont-left > div p{
+    display: inline-block;
+}
+
+.casino-icon{
+    width: 16px;
+}
+
+.bott-cont-big{
+    margin: 25px 0px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    /*background-color: #C14343;*/
+    padding: 12px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px #054479;
+}
+
+.bott-cont-big
+
+.bott-cont-big:active{
+    box-shadow: 0px 4px 15px -3px red;
+}
+.favoris-cont{
+    background-color: #eee;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #AFAFAF;
+    width: 100%;
+}
+
+.favoris-cont img{
+    border-radius: 50%;
+    float: left;
+}
+
+.ui-slider .ui-slider-handle{
+    width: 30px;
+    margin-left: -15px;
+    background-color: #008617;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+.ui-slider .ui-slider-handle:active{
+    background-color: #fff;
+}
+
+.favoris-cont > img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.favoris-cont .text-cont{
+    width: calc(100%  - 50px);
+    display: inline-block;
+}
+
+.favoris-cont .text-cont > span{
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/*.favoris-cont .text-cont > span:nth-child(1){*/
+    /*color: red;*/
+/*}*/
+
+
+
+.total-cont{
+    border: 1px solid #BDBDBD;
+    background-color: #F4F8FB;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0px 8px 12px -8px #000000;
+}
+
+.total-cont h4{
+    text-align: center;
+}
+
+.total-cont ul{
+    padding-left: 0px;
+}
+
+.total-cont li{
+    list-style-type: none;
+    border-bottom: 1px solid #fff;
+    padding: 3px;
+}
+
+.user-smole{
+    display: inline-block;
+}
+
+.user-smole  img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.smole-rate{
+    float: right;
+}
+/*{*/
+    /*content: '\e805';*/
+    /*font-family: csgostrong;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*display: inline-block;*/
+    /*text-decoration: inherit;*/
+    /*margin-right: .2em;*/
+    /*text-align: center;*/
+    /*font-variant: normal;*/
+    /*text-transform: none;*/
+    /*line-height: 1em;*/
+    /*margin-left: .2em;*/
+/*}*/
